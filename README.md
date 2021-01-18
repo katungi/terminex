@@ -1,6 +1,15 @@
-# TERMINEX
+<h1 align="center">TERMINEX</h1>
+<p align="center">
+    <img width="200" alt="Alacritty Logo" src="icons/terminex-square.png">
+</p>
 
-![image](images/terminex.png)
+<h2 align="center">Terminex is a intuitive, simple and cross-platform terminal made using JS</h2>
+
+<p align="center">
+  <img width="600"
+       alt="Terminex is a intuitive, simple and cross-platform terminal made using JS"
+       src="images/terminex.png">
+</p>
 
 ## What Is Terminex
 

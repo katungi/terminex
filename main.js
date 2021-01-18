@@ -6,7 +6,8 @@ var shell = os.platform() === "win32" ? "powershell.exe" : "bash";
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
-    height: 480,
+    height: 600,
+    frame: false,
     webPreferences: {
       nodeIntegration: true,
     },
@@ -15,7 +16,7 @@ function createWindow() {
   win.removeMenu();
   var ptyprocess = pty.spawn(shell, [], {
     name: "xterm-color",
-    cols: 80,
+    cols: 100,
     rows: 30,
     cwd: process.env.HOME,
     env: process.env,

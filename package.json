@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/xterm": "^3.12.0-1",
+    "custom-electron-titlebar": "^3.2.6",
     "electron": "^9.1.0",
     "electron-rebuild": "^2.3.4",
     "node-pty": "^0.9.0",

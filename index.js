@@ -22,6 +22,7 @@ var fit = new FitAddon();
 term.loadAddon(fit);
 term.open(document.getElementById("terminal"));
 fit.fit();
+
 term.onData((e) => {
   ipc.send("terminal.toTerm", e);
 });

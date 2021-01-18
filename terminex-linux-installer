@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 APP_DIR=/opt/terminex
 SHORTCUT_DIR=$HOME/.local/share/applications
-sudo git clone https://github.com/katungi/terminex.git $APP_DIR
+sudo cp -r "$(pwd)" /opt/
 sudo chown -R $SUDO_USER:$SUDO_USER $APP_DIR
 cd $APP_DIR
 # Electron's version.

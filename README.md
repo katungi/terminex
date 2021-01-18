@@ -1,41 +1,50 @@
-# TERMINEX
+<h1 align="center">TERMINEX</h1>
+<p align="center">
+    <img width="200" alt="Alacritty Logo" src="icons/terminex-square.png">
+</p>
 
-![image](images/terminex.png)
+<h2 align="center">Terminex is a intuitive, simple and cross-platform terminal made using JS</h2>
 
-## What Is Terminex
-
-Terminex is a intuitive, simple and cross-platform terminal made using JS.
+<p align="center">
+  <img width="600"
+       alt="Terminex is a intuitive, simple and cross-platform terminal made using JS"
+       src="images/terminex.png">
+</p>
 
 ### Installation
 
-- Start by cloning the project from GitHub.
+Start by cloning the project from GitHub.
 
 ```terminal
 git clone https://github.com/katungi/terminex.git
 ```
-
-cd into the directory:
-
-If you are on windows, run the `.bat` file by right clicking it and **_running as administrator_**
-
-If you are running a linux distro, you will need to give the file permissions by running:
-
+You can also download the [zip](https://github.com/katungi/terminex/archive/main.zip) and extract it to a folder called `Terminex`
+#### LINUX
+Open the terminex directory:
 ```terminal
-chmod 744 npm_install.sh
+cd terminex
 ```
-
+Give the installer permissions:
+```terminal
+chmod +x terminex-linux-installer
+```
 then run it:
 
 ```terminal
-./npm_install.sh
+sudo terminex-linux-installer
 ```
 
+#### WINDOWS
+If you are on windows, run the `.bat` file by right clicking it and **_running as administrator_**.
 This will install all the dependencies you need to run the terminal.
 
 ### Running The Terminal
 
-Once the dependencies are installed, run:
+#### LINUX
+Once the installation is done, you can launch Terminex from your application menu. Just search for it. You can also start it by running `Terminex` in your current terminal
 
+#### WINDOWS
+Start Terminex by running:
 ```terminal
 npm start
 

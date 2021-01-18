@@ -49,6 +49,17 @@ npm start
 - [HTML/CSS](https://developer.mozilla.org/en-US/docs/Web/HTML) - UI development
 - Love - Key ingredient (Naah, Just Kidding, It's JS)
 
+
+## WARNING
+
+The project was built by a coffee-high dev in 3 hours. 1 hour of coding and 2 for debugging C++ stuff He has no idea about.
+
+Key things to know:
+
+- Copy and Paste functions do not work at the moment.
+- I intentionally excluded ```zsh``` for further testing since it breaks when the user has a custom theme.
+- Be kind with the critism 🥺
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.

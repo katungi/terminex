@@ -10,11 +10,11 @@ new customTitlebar.Titlebar({
   minimizable: true,
   maximizable: true,
   closeable: true,
-  menu:false,
+  menu: false,
   iconsTheme: Themebar.mac,
-  titleHorizontalAlignment: "left",
   overflow: "hidden",
-  unfocusEffect:true
+  unfocusEffect: true,
+  icon: "/home/grey/Desktop/Projects/typescript/terminex/icons/terminex-square.png"
 });
 
 var term = new Terminal();

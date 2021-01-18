@@ -1,0 +1,2 @@
+cd /opt/terminex
+npm run start

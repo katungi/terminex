@@ -18,6 +18,6 @@ export npm_config_build_from_source=true
 # Install all dependencies, and store cache to ~/.electron-gyp.
 
 HOME=/home/$SUDO_USER/.electron-gyp npm install
-sudo cp $APP_DIR/Terminex.desktop /usr/share/applications/
 sudo cp terminex /usr/bin/
+sudo cp $APP_DIR/Terminex.desktop /usr/share/applications/
 

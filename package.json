@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A terminal made using electron and web-based technologies like html",
   "main": "main.js",
+  "repository": {
+    "url": "https://github.com/katungi/terminex.git"
+  },
   "scripts": {
     "start": "electron .",
     "rebuild": "electron-rebuild"

@@ -14,7 +14,7 @@ new customTitlebar.Titlebar({
   iconsTheme: Themebar.mac,
   overflow: "hidden",
   unfocusEffect: true,
-  icon: "./icons/terminex-square.png",
+  icon: "./icons/terminex-dark-circle-outline.png",
 });
 
 var term = new Terminal();

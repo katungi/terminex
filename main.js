@@ -6,7 +6,7 @@ var shell = os.platform() === "win32" ? "powershell.exe" : "bash";
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
-    height: 600,
+    height: 500,
     frame: false,
     webPreferences: {
       nodeIntegration: true,

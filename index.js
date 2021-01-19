@@ -14,7 +14,7 @@ new customTitlebar.Titlebar({
   iconsTheme: Themebar.mac,
   overflow: "hidden",
   unfocusEffect: true,
-  icon: './icons/terminex-square.png'
+  icon: "./icons/terminex-square.png",
 });
 
 var term = new Terminal();
@@ -22,7 +22,6 @@ var fit = new FitAddon();
 term.loadAddon(fit);
 term.open(document.getElementById("terminal"));
 fit.fit();
-
 term.onData((e) => {
   ipc.send("terminal.toTerm", e);
 });

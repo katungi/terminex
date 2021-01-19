@@ -11,6 +11,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    icon: "./icons/terminex-dark-circle.png",
   });
 
   win.removeMenu();

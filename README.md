@@ -1,6 +1,6 @@
 <h1 align="center">TERMINEX</h1>
 <p align="center">
-    <img width="200" alt="Alacritty Logo" src="icons/terminex-square.png">
+    <img width="200" alt="Alacritty Logo" src="icons/terminex-dark-square.png">
 </p>
 
 <h2 align="center">Terminex is a intuitive, simple and cross-platform terminal made using JS</h2>

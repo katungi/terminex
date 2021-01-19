@@ -2,7 +2,7 @@
 Type=Application
 TryExec=terminex
 Exec=terminex
-Icon=/opt/terminex/icons/terminex-circle.png
+Icon=/opt/terminex/icons/terminex-dark-circle.png
 Terminal=false
 Categories=System;TerminalEmulator;
 

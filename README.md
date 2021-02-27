@@ -18,16 +18,23 @@ Start by cloning the project from GitHub.
 ```terminal
 git clone https://github.com/katungi/terminex.git
 ```
+
 You can also download the [zip](https://github.com/katungi/terminex/archive/main.zip) and extract it to a folder called `Terminex`
+
 #### LINUX
+
 Open the terminex directory:
+
 ```terminal
 cd terminex
 ```
+
 Give the installer permissions:
+
 ```terminal
 chmod +x terminex-linux-installer
 ```
+
 then run it:
 
 ```terminal
@@ -35,20 +42,41 @@ sudo terminex-linux-installer
 ```
 
 #### WINDOWS
+
 If you are on windows, run the `.bat` file by right clicking it and **_running as administrator_**.
 This will install all the dependencies you need to run the terminal.
 
 ### Running The Terminal
 
 #### LINUX
+
 Once the installation is done, you can launch Terminex from your application menu. Just search for it. You can also start it by running `Terminex` in your current terminal
 
 #### WINDOWS
+
 Start Terminex by running:
+
 ```terminal
 npm start
 
 ```
+
+#### RELEASE INFO
+
+Updated and added copy and paste functionalities.
+To copy use `CTRL` + `INS`
+To paste use `CTRL` + `SHIFT` + `V`
+
+- Note: You can also use `SHIFT` + `INS` to paste
+
+We also added `right click to select` functionality among other changes.
+
+#### Issues being worked on
+
+- Resizing Isues on linux,
+- Building a custom prompt for uniformity,
+- Adding mouse events,
+- Adding a menu
 
 ## Built With
 
@@ -58,15 +86,13 @@ npm start
 - [HTML/CSS](https://developer.mozilla.org/en-US/docs/Web/HTML) - UI development
 - Love - Key ingredient (Naah, Just Kidding, It's JS)
 
-
 ## WARNING
 
 The project was built by a coffee-high dev in 3 hours. 1 hour of coding and 2 for debugging C++ stuff He has no idea about.
 
 Key things to know:
 
-- Copy and Paste functions do not work at the moment.
-- I intentionally excluded ```zsh``` for further testing since it breaks when the user has a custom theme.
+- I intentionally excluded `zsh` for further testing since it breaks when the user has a custom theme.
 - Be kind with the critism 🥺
 
 ## Contributing

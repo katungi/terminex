@@ -25,11 +25,11 @@ var term = new Terminal({
   rightClickSelectsWord: true,
   screenReaderMode: true,
   scrollback: 6,
-  theme: blur,
   bellSound: './images/bell.mp3',
 });
 var fit = new FitAddon();
 term.loadAddon(fit);
+fit.activate;
 term.open(document.getElementById('terminal'));
 fit.fit();
 term.onData((e) => {

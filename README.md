@@ -73,7 +73,7 @@ We also added `right click to select` functionality among other changes.
 
 #### Issues being worked on
 
-- Resizing Isues on linux,
+- Resizing Issues on linux,
 - Building a custom prompt for uniformity,
 - Adding mouse events,
 - Adding a menu

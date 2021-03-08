@@ -7,8 +7,10 @@
     "url": "https://github.com/katungi/terminex.git"
   },
   "scripts": {
-    "start": "electron .",
-    "rebuild": "electron-rebuild"
+    "start": "electron-forge start",
+    "rebuild": "electron-rebuild",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "keywords": [
     "electron",
@@ -21,10 +23,45 @@
   "dependencies": {
     "@zeit/xterm": "^3.12.0-1",
     "custom-electron-titlebar": "^3.2.6",
-    "electron": "^9.1.0",
     "electron-rebuild": "^2.3.4",
+    "electron-squirrel-startup": "^1.0.0",
     "node-pty": "^0.9.0",
     "xterm": "4.2.0",
     "xterm-addon-fit": "^0.4.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/maker-deb": "^6.0.0-beta.54",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "electron": "^9.4.4"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "terminex"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
   }
 }

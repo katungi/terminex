@@ -2,11 +2,11 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const os = require('os');
 const pty = require('node-pty');
 
-var shell = os.platform() === 'win32' ? 'powershell.exe' : 'bash';
+var shell = os.platform() === 'win32' ? 'powershell.exe' : 'zsh';
 function createWindow() {
   const win = new BrowserWindow({
-    minWidth: 370,
-    minHeight: 190,
+    Width: 370,
+    Height: 190,
     frame: process.platform === 'darwin',
     transparent: process.platform === 'darwin',
     webPreferences: {

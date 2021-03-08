@@ -27,6 +27,7 @@ var term = new Terminal({
   scrollback: 6,
   bellSound: './images/bell.mp3',
 });
+
 var fit = new FitAddon();
 term.loadAddon(fit);
 fit.activate;

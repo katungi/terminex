@@ -47,6 +47,10 @@ app.on('window-all-closed', () => {
   }
 });
 
+if (require('electron-squirrel-startup')) {
+  app.quit();
+}
+
 app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     createWindow();
